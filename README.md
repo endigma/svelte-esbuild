@@ -61,5 +61,5 @@ git clone git@gitlab.com:endigma/svelte-esbuild.git
 cd svelte-esbuild
 
 yarn install
-yarn dev
+yarn dev # or yarn build
 ```
