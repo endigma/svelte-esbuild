@@ -2,11 +2,11 @@
 
 when `typescript({ content }) {}` replacement is embedded into the automatic preprocessor, it fails with:
 
-![](https://gitlab.com/endigma/svelte-esbuild/-/blob/main/images/fail-1.png)
+![](https://gitlab.com/endigma/svelte-esbuild/-/raw/main/images/fail-1.png)
 
 and 
 
-![](https://gitlab.com/endigma/svelte-esbuild/-/blob/main/images/fail-2.png)
+![](https://gitlab.com/endigma/svelte-esbuild/-/raw/main/images/fail-2.png)
 
 when replacement is wrapped in `typescript()` from `svelte-preprocessor`, functions normally.
 
