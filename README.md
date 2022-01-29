@@ -2,10 +2,12 @@
 
 when `typescript({ content }) {}` replacement is embedded into the automatic preprocessor, it fails with:
 
+![](https://github.com/endigma/svelte-esbuild/blob/main/images/fail-1.png?raw=true)
 ![](https://gitlab.com/endigma/svelte-esbuild/-/raw/main/images/fail-1.png)
 
 and 
 
+![](https://github.com/endigma/svelte-esbuild/blob/main/images/fail-2.png?raw=true)
 ![](https://gitlab.com/endigma/svelte-esbuild/-/raw/main/images/fail-2.png)
 
 when replacement is wrapped in `typescript()` from `svelte-preprocessor`, functions normally.
